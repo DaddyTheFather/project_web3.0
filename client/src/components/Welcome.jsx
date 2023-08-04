@@ -37,39 +37,42 @@ const Welcome = () => {
     <div className="flex w-full justify-center items-center">
       <div className="flex mf:flex-row flex-col items-start justify-between md:p-20 py-12 px-4">
         <div className="flex flex-1 justify-start items-start flex-col mf:mr-10">
-          <h1 className="text-3xl sm:text-5xl text-white text-gradient py-1">
-            Send Crypto <br /> across the world
+          <h1 className="text-3xl sm:text-7xl text-white text-gradient py-1">
+            Xiba Inu
+          </h1>
+          <h1 className="text-xl sm:text-xl text-white text-gradient py-1">
+            Son of Great Shiba Inu
           </h1>
           <p className="text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-base">
-            Explore the crypto world. Buy and sell cryptocurrencies easily on Krypto.
+            Xiba was born in the heart of July, just one month before the Shibarium Era, making him the final Shiba and the most hyped memes token.
           </p>
           {!currentAccount && (
             <button
               type="button"
               onClick={connectWallet}
-              className="flex flex-row justify-center items-center my-5 bg-[#2952e3] p-3 rounded-full cursor-pointer hover:bg-[#2546bd]"
+              className="flex flex-row justify-center items-center my-5 bg-[#D6A323] p-3 rounded-full cursor-pointer hover:bg-[#BAA371]"
             >
               <AiFillPlayCircle className="text-white mr-2" />
               <p className="text-white text-base font-semibold">
-                Connect Wallet
+                Earn $XIBA
               </p>
             </button>
           )}
 
           <div className="grid sm:grid-cols-3 grid-cols-2 w-full mt-10">
             <div className={`rounded-tl-2xl ${companyCommonStyles}`}>
-              Reliability
+              Community Run Token
             </div>
-            <div className={companyCommonStyles}>Security</div>
+            <div className={companyCommonStyles}>Community</div>
             <div className={`sm:rounded-tr-2xl ${companyCommonStyles}`}>
-              Ethereum
+              Huge Community
             </div>
             <div className={`sm:rounded-bl-2xl ${companyCommonStyles}`}>
-              Web 3.0
+              Fun Utility
             </div>
-            <div className={companyCommonStyles}>Low Fees</div>
+            <div className={companyCommonStyles}>Ethereum</div>
             <div className={`rounded-br-2xl ${companyCommonStyles}`}>
-              Blockchain
+              Empire
             </div>
           </div>
         </div>
